@@ -1,0 +1,3 @@
+src - used to add an iamage or video link to a element
+Href - Used to connect and redirect a web page to an element.
+alt - 
