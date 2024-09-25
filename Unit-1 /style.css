@@ -1,0 +1,34 @@
+body{
+    margin: 0px; 
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color :rgb(255, 228, 194);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.narbar a:hover{
+    background-color: rgb(192, 163, 126);
+}
+.narbar li{
+    float: left;
+}
+body{
+    background-image: url("img_tree.gif"), url("paper.gif");
+    background-color:rgb(255, 249, 228);
+  }
