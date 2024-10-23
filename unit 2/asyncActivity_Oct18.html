@@ -1,47 +1,91 @@
+\
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<style>
-.item1 { grid-area:1; }
-.item2 { grid-area:2; }
-.item3 { grid-area:3; }
-.item4 { grid-area:4; }
-.item5 { grid-area:5; }
-.item6 { grid-area:6; }
-.item7 { grid-area:7; }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      /* Three equal columns */
+      gap: 10px;
+    }
 
-.grid-container {
-    display: grid; 
-    grid-template-areas:'Nar Nar Nar Nar Nar Nar'
-    'Main Main Main Main right right'
-    'option 1 option 1 option 2 option 2 option 3 option 3'
-    'footer footer footer footer footer footer';
-    
-  gap: 10px;
-  padding: 10px;
-}
 
-.grid-container > div {
-  background-color: rgba(223, 32, 32, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
-</style>
+    .header {
+      grid-column: span 3;
+      background-color: rgb(94, 83, 83);
+      padding: 20px;
+      text-align: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+
+    }
+
+    .footer {
+      grid-column: span 3;
+      background-color: rgb(236, 148, 32);
+      padding: 20px;
+      text-align: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+
+    }
+
+    .Main-contect {
+      grid-column: ;
+      background-color: rgb(19, 212, 212);
+      padding: 20px;
+      text-align: center;
+      background-size: 599px 100px
+    }
+
+    .advertisement {
+      grid-column: ;
+      background-color: rgb(17, 126, 177);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .option-1 {
+      grid-column: ;
+      background-color: rgb(26, 151, 15);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .option-2 {
+      grid-column: ;
+      background-color: rgb(17, 177, 30);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .option-3 {
+      grid-column: ;
+      background-color: rgb(17, 177, 17);
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
 </head>
+
 <body>
 
->
-
-<div class="grid-container">
-  <div class="item1">Nar</div>
-  <div class="item2">Main</div>
-  <div class="item3">right</div>  
-  <div class="item4">option 1</div>
-  <div class="item5">option 2</div>
-  <div class="item6">option 3</div>
-  <div class="item7">footer</div>
-</div>
+  <div class="grid-container">
+    <div class="grid-item header">Header</div>
+    <div class="grid-item Main-contect">Main contect</div>
+    <div class="grid-item advertisement"> advertisement </div>
+    <div class=" grid-item option-1">opton 1 </div>
+    <div class=" grid-item option-2">opton 2 </div>
+    <div class="grid-item option-3">option 3</div>
+    <div class="grid-item footer">Footer</div>
+  </div>
 
 </body>
+
 </html>
