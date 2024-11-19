@@ -6,8 +6,8 @@ input_name = "Man"
 input_passcode = "12345"
 
 
-is_authorized = name == input_name and passcode == input_passcode
-print("Is the person authorized?", is_authorized)
+print(  name == input_name and passcode == input_passcode)
+
 
 
 required_ecgs = 10
@@ -15,6 +15,7 @@ received_ecgs = 4
 
 required_oxygen = 6
 received_oxygen = 9
+
 
 
 ecg_status = "Request more ECG machines" if received_ecgs < required_ecgs else "Send back overflow"
