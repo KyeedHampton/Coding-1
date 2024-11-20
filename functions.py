@@ -33,4 +33,34 @@ def sandwichInstructions():
    #the function call
    
 # this is a function call 
-.sandwichInstructions()
+
+#.sandwichInstructions()
+
+# 11/20/24
+
+# functions using arithmeic operators 
+
+def depositMoney(x):
+    checkingAccount = 100
+    print('money has been deposited sucessfully')
+    print('new checking account balance is below ')
+    print(x + checkAcountBalance)
+
+depositMoney(35)    
+depositMoney(200)
+depositMoney(95)
+
+def withdrawMoney():
+    checkAccount=300
+    print('money has been withdrawn successfully')
+    print('new checking account balance is below: ')
+    print(checkAccount - x)
+    
+    withdrawMoney(200)
+    
+def checkAcountBlance():
+    checkAccount = 1000
+    print('here is your current check account balance:')
+    print(checkAccount)
+
+checkAcountBlance()
