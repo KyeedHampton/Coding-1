@@ -38,7 +38,39 @@ def verifyAge(age):
         
 verifyAge(69)
     
+
+
+# 1. Create a function that will take a number 
+# that is passed into the functions parameters and 
+# convert the number into minutes. For example, a
+# value of 2 shold return 120 minutes, a value 
+# of 3 shold return 180 minutes, a vaue of 4 shold 
+# return 240 minutes, etc. 
     
     
-    
+# def hoursToMinutes(hour):
+    print(hour * 60)
+
+
+# hoursToMinutes(3)
+
+# Conditional Statements 
+# if/else keywords; gives us the abilly to
+# control outcemos and make decisions on data.
+
+# food expiration software is an example of 
+# using conditional statements. If the food expires 
+# it needs to be thrown away, otherwise, or else
+# it can be eaten. 
+
+def foodExpiration(month, data, year):
+     expirationMonth = 12
+     expirationData = 4
+     expirationYear = 2024
+     if data > expirationDate and year > expirationYear:
+         print('throw food away. ')
+     else:
+         print('food is still good.')
+
+foodExpiration(12, 4, 2024)
     
